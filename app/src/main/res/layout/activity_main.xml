@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:src="@drawable/bournvita"
+        android:layout_weight="10"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"/>
+
+
+    <!--<Button
+        android:id="@+id/start"
+        android:layout_weight="1"
+        android:text="Start"
+        android:onClick="click"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"/>-->
+
+
+</LinearLayout>
